@@ -1,5 +1,8 @@
+import LogoImg from "../images/logo/bigLogo.svg";
+
+
 const Header = () => {
-    const view = `
+  const view = `
   <header>
     <div class="header">
       <div class="header-content">
@@ -44,13 +47,13 @@ const Header = () => {
 
               <div class="header-area-logo">
                 <span header-logo>
-                  <img class="logo-img" src="./images/img/logo/bigLogo.svg">
+                  <img class="logo-img" src="${LogoImg}">
                 </span>
               </div>
 
               <div class="header-area-catalog">
                 <button type="button" class="header-btn-catalog">
-                  <span class="icon icon-bars-show"></span>
+                  <span class="icon icon-menu"></span>
                   Каталог
                 </button>
               </div>
@@ -91,7 +94,7 @@ const Header = () => {
     </div>
   </header>
     `;
-    return view;
+  return view;
 }
 
 export default Header;

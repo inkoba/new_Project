@@ -1,34 +1,11 @@
 
 import "../styles/scss/main.scss";
-
 /* import regeneratorRuntime from "regenerator-runtime";
 import generateAllTasks from "../components/projectTasks"; */
 import s1 from "../images/mini_slider/s1.jpg";
-import Slider1 from "../images/Slider/Sl1.jpg";
-import Slider2 from "../images/Slider/Sl2.jpg";
-import Slider3 from "../images/Slider/Sl3.jpg";
-import Slider4 from "../images/Slider/Sl4.jpg";
-import Slider5 from "../images/Slider/Sl5.jpg";
-
-import 'swiper/swiper-bundle.css';
-import Swiper, { Navigation } from 'swiper';
-Swiper.use(Navigation);
 
 
 const Home = () => {
-  setTimeout(() => {
-    const swiper = new Swiper('.swiper-container', {
-      // Optional parameters
-      direction: 'horizontal',
-
-      // Navigation arrows
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  });
-
   const view = `
   <div id="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar"></div>
 
@@ -36,22 +13,40 @@ const Home = () => {
     <main>
       <div class="main">
         <div class="main-content">
-        
-          <div class="swiper-container">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="${Slider1}"></div>
-                <div class="swiper-slide"><img src="${Slider2}"></div>
-                <div class="swiper-slide"><img src="${Slider3}"></div>
-                <div class="swiper-slide"><img src="${Slider4}"></div>
-                <div class="swiper-slide"><img src="${Slider5}"></div>
+
+
+          <div class="promo-slider">
+            <div class="mainly">
+              <div class="wrapper-promo-slider">
+                <div class="picture">
+                  <div class="slider-picture">
+
+                    <div>
+                      <a>
+                        <img src="./images/img/y5naGUm2DrA.jpg">
+                      </a>
+                    </div>
+
+                    <div class="promo-slider-text">Новое поступление!</div>
+                  </div>
+                </div>
+
+                <div class="arrow-slider">
+                  <div class="wrapper-arrow">
+                    <button id="arrow-slider-right" type="button" class="btn-arrow-slider">
+                      <span class="splide-arrow-icon icon-angle-right"></span>
+                    </button>
+
+                    <button id="arrow-slider-left" type="button" class="btn-arrow-slider">
+                      <span class="splide-arrow-icon icon-angle-left"></span>
+                    </button>
+                  </div>
+                </div>
+
+                <div></div>
+              </div>
             </div>
-          
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
+          </div>
 
           <div class="special-products">
             <div class="mainly">

@@ -1,3 +1,5 @@
+@import url('../font/css/fontello.css');
+
 *{
   padding: 0;
   margin: 0;
@@ -26,7 +28,7 @@ button:hover{
   transition: all 1s ease-out;
 }
 span.icon{
-  padding: 6px;
+  padding: 4px;
 }
 span.icon:hover{
   border: 2px solid #efa0af6e;;
@@ -183,6 +185,7 @@ width: 215px;
   font-size: 1.75rem;
   position: relative;
 }
+
 .header-cart-empty{
   min-width: 1.125rem;
   height: 1.125rem;
@@ -206,7 +209,7 @@ a{
   align-items: center;
   background-color: #efa0afb8;
   border-radius: 6px;
-  padding: 5px 10px;
+  padding: 0px 10px;
   cursor: pointer
 }
 
@@ -216,7 +219,8 @@ a{
   border-right: none;
   width: 150px;
   flex-grow: 1;
-  cursor: pointer
+  cursor: pointer;
+  border: solid 1px gray;
 }
 
 .header-search-form{
@@ -610,4 +614,36 @@ arrow-slide{
 
 .header-phone-value{
   color: black;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
