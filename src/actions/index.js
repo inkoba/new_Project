@@ -13,7 +13,7 @@ const getContent = async () => {
 
   // close preloader
   if (document.querySelector(".content")) {
-    setTimeout(closePreloader, 10);
+    setTimeout(closePreloader, 1000);
   }
 
   //burger

@@ -7,8 +7,6 @@ const Home = () => {
 
   swiperFunction();
   const view = `
-  <div id="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar"></div>
-
 
     <main>
       <div class="main">
@@ -216,7 +214,7 @@ const Home = () => {
                     </div>
                   </div>
 
-
+                  <!--<div id="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar"></div>-->
 
 
                 </div>
