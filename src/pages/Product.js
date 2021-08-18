@@ -42,12 +42,12 @@ const Product = async () => {
               </div>
 
           <div class="brends">
-          <div class="mainly">
+  
             <div class="wrapper-special-products">
               <div class="special-products-head">
               <div class="h2 special-products-title">Новое поступление</div>
             </div>
-          </div>
+    
         <div class="swiper-container mySwiper1">
           <div class="swiper-wrapper" id="generationSwiper"></div>
         </div>

@@ -82,7 +82,7 @@ button {
  /*  max-width: 1100px; */
   width: 80%;
   margin: 0px auto;
-  padding-top: 2vw;
+ /*  padding-top: 2vw; */
   padding-bottom: 2vw;
 }
 
@@ -562,6 +562,9 @@ arrow-slide{
   }
   .header-area-controls{
     padding: 10px;
+  }
+  .button-menu{
+    flex-direction: column;
   }
   
 }

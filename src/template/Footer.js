@@ -16,17 +16,18 @@ const Footer = () => {
               <div class="footer-content-top">
                 <div class="footer-menu-item">
                   <div class="footer-menu-title">
-                    <a class="menu-link">О нас</a>
-                    <a class="menu-link">Акции</a>
-                    <a class="menu-link">Новое поступление</a>
-                    <a class="menu-link">Наш адрес</a>
+                    <a  class="menu-link" href="/#">Главная</a>
+                    <a class="menu-link" href="/#/collection">Коллекции</a></li>
+                    <a class="menu-link" href="/#/1">Акции</a>
+                    <a class="menu-link" href="/#/contacts">Контакты</a>
+                    <a class="menu-link" href="/#feedback">Отзыв</a>
                   </div>
 
 
                   <div class="footer-menu-client">
                     <div class="footer-menu-title">
                       <a class="menu-link">Личный кабинет</a>
-                      <a class="menu-link">Корзина</a>
+                      <a class="menu-link" href="/#/basket">Корзина</a>
                     </div>
                   </div>
                 </div>
@@ -36,16 +37,22 @@ const Footer = () => {
                   <div class="footer-area-social">
                     <div class="title">Мы в соц. сетях</div>
                     <div class="social-items">
-                      <div class="social-img-item third"><span class="icon icon-paper-plane"></span></div>
-                      <div class="social-img-item third"><span class="icon icon-vkontakte"></span></div>
-                      <div class="social-img-item third"><span class="icon icon-twitter"></span></div>
-                      <div class="social-img-item third"><span class="icon icon-skype"></span></div>
-                      <div class="social-img-item third"><span class="icon icon-facebook-squared"></span></div>
-                      <div class="social-img-item third"><span class="icon icon-instagram"></span></div>
+                      <a class="social-img-item third" href="https://t.me" target="_blank" alt="Телеграм"
+                      title="Телеграм"><span class="icon icon-paper-plane"></span></a>
+                      <a class="social-img-item third" href="https://vk.com" target="_blank" alt="Вконтакте"
+                      title="Вконтакте"><span class="icon icon-vkontakte"></span></a>
+                      <a class="social-img-item third" href="https://twitter.com" target="_blank" alt="Twitter"
+                      title="Twitter"><span class="icon icon-twitter"></span></a>
+                      <a class="social-img-item third" href="https://www.skype.com" target="_blank" alt="Skype"
+                      title="Skype"><span class="icon icon-skype"></span></a>
+                      <a class="social-img-item third" href="https://www.facebook.com" target="_blank" alt="Facebook"
+                      title="Facebook"><span class="icon icon-facebook-squared"></span></a>
+                      <a class="social-img-item third" href="https://www.instagram.com" target="_blank" alt="Instagram"
+                      title="Instagram"><span class="icon icon-instagram"></span></a>
                     </div>
                   </div>
 
-            
+                  
 
                   <div class="footer-area-contacts">
 

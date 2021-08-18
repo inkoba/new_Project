@@ -47,6 +47,10 @@
   flex-wrap: wrap;
   font-size: 0.9rem;
 }
+.footer-menu-item a:hover{
+  color: gray;
+  text-decoration: underline;
+}
 
 .footer-menu-title{
   display: grid;

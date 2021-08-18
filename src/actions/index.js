@@ -21,8 +21,6 @@ const getContent = async () => {
     setTimeout(closePreloader, 1000);
   }
 
-  //generate images
-  //await generateImg();
 
   //burger
   burgerMenu();

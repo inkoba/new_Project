@@ -45,7 +45,7 @@ const Header = () => {
 
               <div class="header-area-menu">
                 <ul class="header-menu">
-                  <li class="header-menu-item"><a href="/">Главная</a></li>
+                  <li class="header-menu-item"><a href="/#">Главная</a></li>
                   <li class="header-menu-item" id="catalog"><a href="/#/collection">Коллекции</a></li>
                   <li class="header-menu-item"><a href="/#/contacts">Контакты</a></li>
                   <li class="header-menu-item"><a href="/#/1">Товар</a></li>

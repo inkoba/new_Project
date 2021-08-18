@@ -16,15 +16,15 @@ const Home = () => {
         
           <div class="swiper-container mySwiper">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="../images/Slider/Sl1.jpg"></div>
-                <div class="swiper-slide"><img src="../images/Slider/Sl2.jpg"></div>
-                <div class="swiper-slide"><img src="../images/Slider/Sl3.jpg"></div>
-                <div class="swiper-slide"><img src="../images/Slider/Sl4.jpg"></div>
-                <div class="swiper-slide"><img src="../images/Slider/Sl5.jpg"></div>
-                <div class="swiper-slide"><img src="../images/Slider/Sl6.jpg"></div>
-                <div class="swiper-slide"><img src="../images/Slider/Sl7.jpg"></div>
-                <div class="swiper-slide"><img src="../images/Slider/Sl8.jpg"></div>
-                <div class="swiper-slide"><img src="../images/Slider/Sl9.jpg"></div>
+                <div class="swiper-slide"><img src="../images/Slider/Sl1.1.jpg"></div>
+                <div class="swiper-slide"><img src="../images/Slider/Sl2.1.jpg"></div>
+                <div class="swiper-slide"><img src="../images/Slider/Sl3.1.jpg"></div>
+                <div class="swiper-slide"><img src="../images/Slider/Sl4.1.jpg"></div>
+                <div class="swiper-slide"><img src="../images/Slider/Sl5.1.jpg"></div>
+                <div class="swiper-slide"><img src="../images/Slider/Sl6.1.jpg"></div>
+                <div class="swiper-slide"><img src="../images/Slider/Sl7.1.jpg"></div>
+                <div class="swiper-slide"><img src="../images/Slider/Sl8.1.jpg"></div>
+                <div class="swiper-slide"><img src="../images/Slider/Sl9.1.jpg"></div>
               </div>
           
               <div class="swiper-button-prev"></div>
