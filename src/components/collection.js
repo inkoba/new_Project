@@ -1,18 +1,4 @@
-const collectionBtn = (pageName, elmnt, color) => {
+import regeneratorRuntime from "regenerator-runtime";
+import "../styles/scss/main.scss";
+import { displaySearchTasks } from "./searchBox";
 
-  let i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-
-  document.getElementById("defaultOpen").click();
-}
-
-export { collectionBtn };

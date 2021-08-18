@@ -4,13 +4,8 @@ import regeneratorRuntime from "regenerator-runtime";
 import { openCatalogBtn, closeCatalogBtn } from "../components/catalogBtn";
 import { openSearchBox, displaySearchTasks, inputSearchTasks, closeSearchBox, } from "../components/searchBox";
 import toTopBtn from "../components/toTopBtn";
-import generateImg from "../components/generateImg";
-/* import { sendInBasket, changeCounter } from "../components/basket"; */
-/* import { openBasketBox, closeBasketBox, displayBasketTasks } from "../components/basket"; */
-import cardOpen from "../components/card";
 import burgerMenu from "../components/burger";
-import collectionBtn from "../components/collection";
-import generateProduct from "../components/generateProduct";
+import { writeAccountData, checkLogin } from "../components/logIn";
 
 const getContent = async () => {
   // load page
@@ -18,9 +13,8 @@ const getContent = async () => {
 
   // close preloader
   if (document.querySelector(".content")) {
-    setTimeout(closePreloader, 1000);
+    setTimeout(closePreloader, 10);
   }
-
 
   //burger
   burgerMenu();
@@ -29,7 +23,6 @@ const getContent = async () => {
   document.querySelector('.header-btn-catalog').addEventListener('click', openCatalogBtn);
 
   document.querySelector('.close-btn-menu').addEventListener('click', closeCatalogBtn);
-
 
 
   // open search bar 
@@ -68,79 +61,20 @@ const getContent = async () => {
   //scroll button
   toTopBtn();
 
-  // send in basket
-  //sendInBasket();
-  /* document.addEventListener('click', (event) => {
-    const prod = document.querySelector('.product-preview-btn');
-    if (event.target.closest('.product-preview-btn')) {
-      console.log("hhhh"); */
-  /* sendInBasket(event.target.dataset.id); */
-  /*     changeCounter(prod);
-    }
-  }) */
-
-
-  //
-  // open basket bar
-  /*   if (document.querySelector("#basketBtn")) {
-      document.querySelector("#basketBtn").addEventListener("click", (event) => {
-        event.preventDefault();
-        openBasketBox();
-        displayBasketTasks();
-      });
-    } */
-
-  // close basket bar
-  /*   if (document.querySelector(".basket-container .current-close")) {
-      document
-        .querySelector(".basket-container .current-close")
-        .addEventListener("click", (event) => {
-          event.preventDefault();
-          closeBasketBox();
-        });
-    } */
-
-
-
-  // card
-  /* cardOpen(); */
-
-  //collection
-  /* collectionBtn(); */
-
-
-  // product
-  /*  window.onload = () => {
- 
-     console.log("11111111111111111111111")
-     document.querySelector('.search-item').addEventListener('click', (event) => {
-       event.preventDefault();
-       generateProduct();
-     });
-   } */
-
-  /*  document.addEventListener('DOMContentLoaded', function () {
-     document.querySelector('.search-item-text').addEventListener('click', function () {
-       console.log("1111111111111")
-     });
-   }); */
-
-
-
   // login
-  if (document.querySelector("#signin")) {  //проверка есть такой элемент на странице
-    document.querySelector("#signin").addEventListener("submit", writeAccountData);
+  if (document.querySelector('#signin')) {
+    document.querySelector('#signin').addEventListener('submit', writeAccountData);
+    //document.querySelector('#signin').addEventListener('submit', postUser);
   }
 
-  if (document.querySelector("#login")) {  //проверка есть такой элемент на странице
-    //document.querySelector("#login").addEventListener("submit", checkLogin);
-    document.querySelector("#login").addEventListener("submit", postUser); // а это проверяет на сервере
+  if (document.querySelector('#login')) {
+    document.querySelector('#login').addEventListener('submit', checkLogin);
   }
 
-  // реагирует на действия если пользватель уходит со страницы
-  window.addEventListener("unload", () => {
-    localStorage.setItem('session-key', generatePassword())
+  window.addEventListener('unload', () => {
+    localStorage.setItem('session-key', '');
   })
-}
+
+};
 
 export { getContent };

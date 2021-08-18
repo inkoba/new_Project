@@ -1,37 +1,36 @@
 //регистрация
-const writeAccountData = () => {
-  //event.preventdefault();
-  const userEmail = document.querySelector("#name1");
-  const userPassword = document.querySelector("#pw");
+const writeAccountData = (event) => {
+  event.preventDefault();
+  const userEmail = document.querySelector('#name1');
+  const userPassword = document.querySelector('#pw');
 
   localStorage.setItem("user-email", userEmail.value);
   localStorage.setItem("user-password", userPassword.value);
 
-  //возможностьгенерирования ключа
-
-  window.location.href = "http://localhost:8080/#";
-  localStorage.setItem("session-key", generatePassword());
-
+  setTimeout(() => {
+    window.location.href = "http://localhost:8080/#";
+    localStorage.setItem("session-key", generatePassword());
+  }, 1000);
 
 }
 
 // подтягивание данных с локалстр
 const checkLogin = (event) => {
-  event.preventdefault();
+  event.preventDefault();
   const emailStore = localStorage.getItem("user-email");
   const passwordStore = localStorage.getItem("user-password");
 
   const userEmail = document.querySelector('#userName');
   const userPassword = document.querySelector('#userPw');
 
-  //если мы правильно залагинились то переходим на главную страницу
   if (userEmail.value === emailStore && userPassword.value === passwordStore) {
-    /* alert('OK'); */
+    //alert('OK');
     window.location.href = "http://localhost:8080/#";
     localStorage.setItem("session-key", generatePassword());
   } else {
-    alert('Not OK')
+    alert('Not OK');
   }
+
 }
 
 const generatePassword = () => {
@@ -47,7 +46,7 @@ const generatePassword = () => {
 
 const redirect = () => {
   if (window.location.href != "http://localhost:8080/#/signup" && !localStorage.getItem('session-key')) {
-    window.location.href = "http://localhost:8080/#/login1";
+    window.location.href = "http://localhost:8080/#/login";
     return true;
   }
   return false;

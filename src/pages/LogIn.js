@@ -4,11 +4,11 @@ const LogIn = () => {
   const view = `
     <div class="login-box">
        <div class="login-head">
-          <h1>Login Clone Jira.</h1>
+          <h1>Вход</h1>
        </div>
        <section class="login-box-form">
          <div class="login-title">
-            Sign in to your account
+            В войдите в свой аккаунт
          </div>
          <form id="login">
            <div>

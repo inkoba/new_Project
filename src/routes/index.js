@@ -11,12 +11,14 @@ import swiperFunction from "../components/swiperSetTimeout";
 import regeneratorRuntime from "regenerator-runtime";
 import Basket from "../pages/Basket";
 import LogIn from "../pages/LogIn";
+import SignUp from "../pages/SignUp";
 import { redirect } from "../components/logIn";
 import Product from "../pages/Product";
 
 const routes = {
     "/": Home,
     "/login": LogIn, //http://localhost:8080/#/login
+    "/signup": SignUp, // http://localhost:8080/#/signin
     "/collection": Collection,  // http://localhost:8080/#/collection
     "/contacts": Contacts, // http://localhost:8080/#/contacts
     "/basket": Basket,  //http://localhost:8080/#/basket
@@ -28,7 +30,6 @@ const router = async () => {
     const content = null || document.getElementById("content");
     const footer = null || document.getElementById("footer");
     header.innerHTML = Header();
-
     footer.innerHTML = Footer();
     let hash = getHash();
     let route = await getResolveRoutes(hash);
