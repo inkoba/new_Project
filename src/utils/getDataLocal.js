@@ -1,6 +1,6 @@
 const TASKS_LOCAL = 'http://localhost:3000/tasks';
 
-
+import regeneratorRuntime from "regenerator-runtime";
 const getResource = async (url) => {
   const res = await fetch(url);
 
@@ -12,5 +12,10 @@ const getAllTasks = async () => {
   return res;
 }
 
+const getProduct = async (id) => {
+  const res = await getResource(`${TASKS_LOCAL}/${id}`);
+  return res;
+}
 
-export { getAllTasks };
+
+export { getAllTasks, getProduct };

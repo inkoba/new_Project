@@ -1,0 +1,141 @@
+
+/* .header-content{
+  display: flex;
+  flex-direction: column;
+} */
+
+.header-content-top{
+background-color: #f7f7f7;
+}
+
+.header-content-top-inner{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+margin-top: 10px;
+width: 80%;
+margin: 0 auto;
+padding: 10px 0px;
+}
+
+.header-menu-item{
+  list-style-type: none;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.header-menu{
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+}
+.header-menu li:hover{
+  color: #efa0af;
+  text-decoration: underline;
+}
+.header-content-bottom-inner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.logo-img{
+width: 215px;
+}
+
+.icon-search-1:before{
+  content: "\E81A";
+}
+
+.icon-bars:before{
+  content: "\E811";
+}
+
+.icon-user:before {
+  content: "\E852"
+}
+
+.icon-compare:before{
+  content: "\E804";
+}
+
+.icon-cart:before {
+  content: "\E818";
+}
+.icon{
+  font-size: 1.75rem;
+  position: relative;
+}
+
+.icon-cancel:before{
+  content: "E813";
+}
+
+.close-span-menu{
+  position: absolute;
+  font-size: 25px;
+  color: rgb(94, 108, 132);
+  transition: all 0.1s ease 0s;
+  cursor: pointer;
+  user-select: none;
+  top: 5%;
+  right: 30px;
+  width: 50px;
+  height: 35px;
+  border-radius: 3px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(223, 225, 230);
+  box-shadow: rgb(0 0 0 / 10%) 0px 5px 10px 0px;
+  z-index: 1;
+}
+
+
+.header-cart-empty{
+  min-width: 1.125rem;
+  height: 1.125rem;
+  padding: 0 3px;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+}
+
+.header-btn-catalog{
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  cursor: pointer
+}
+
+.header-search-field{
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-right: none;
+  width: 150px;
+  flex-grow: 1;
+  cursor: pointer;
+  border: solid 1px gray;
+}
+
+.header-search-form{
+display: flex;
+}
+
+.header-btn-search{
+  position: relative;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+

@@ -1,0 +1,125 @@
+
+
+#search-box aside{
+  display: none;
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  overflow-x: hidden;
+  overflow-x: visible;
+  height: 100vh;
+  width: 64px;
+  background: rgb(7, 71, 166);
+  transition: all 0.1s ease 0s;
+  transform: translateZ(0px);
+  overflow: scroll;
+}
+
+aside .search-container{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  min-height: 100vh;
+  max-width: 600px;
+  box-shadow: rgba(0, 0, 0, 15%) 0px 0px 20px 0px;
+  padding: 25px 35px 60px;
+  max-width: 530px;
+}
+   
+aside  input{
+  height: 40px;
+  padding: 0px 0px 0px 32px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  border-bottom: 2px solid rgb(167 33 33);
+  background: rgb(255, 255, 255);
+  font-size: 21px;
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+  padding-right: 30px;
+  margin-bottom: 40px;
+}
+
+aside strong{
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  color: #524f4e;
+  font-weight: normal;
+  font-size: 11.5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+aside .current-close{
+  position: absolute;
+  font-size: 25px;
+  color: rgb(94, 108, 132);
+  transition: all 0.1s ease 0s;
+  cursor: pointer;
+  user-select: none;
+  top: 10px;
+  right: -30px;
+  width: 50px;
+  height: 35px;
+  padding-top: 4px;
+  border-radius: 3px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(223, 225, 230);
+  box-shadow: rgba(0, 0, 0, 10%) 0px 5px 10px 0px;
+}
+
+#charactersList .search-item{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: background 0.1s ease 0s;
+  cursor: pointer;
+  user-select: none;
+}
+
+.search-item h4{
+  color: #750202;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.search-item p{
+  text-transform: uppercase;
+  color: #f36d6d;
+  font-size: 12.5px;
+}
+
+.search-item i{
+  color: rgb(79, 173, 230);
+}
+
+.search-item-text{
+  padding: 10px;
+  border: solid 1px white;
+}
+
+.search-item-text:hover{
+  border: solid 1px gray;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.search-item img{
+  width: 100px;
+}
+  
+#search-box .show-box{
+  display: block;
+ /*  width: 600px; */
+  min-height: 100%;
+  background: rgba(9, 30, 66, 0.54);
+  width: 100vw;
+}

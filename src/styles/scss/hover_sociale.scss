@@ -1,0 +1,40 @@
+.third {
+  border-color: #f1c40f;
+
+  background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #efa0afb8 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  padding: 10px;
+}
+
+.third:hover {
+  background-position: 0;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+.icon-paper-plane:hover {
+  color: #0088cc;
+}
+
+.icon-vkontakte:hover{
+  color:#597da3;
+}
+.icon-twitter:hover{
+  color: #00acee;
+}
+.icon-skype:hover{
+  color: #00aff0;
+}
+.icon-facebook-squared:hover{
+  color: #3b5998;
+}
+.icon-instagram:hover{
+  color: #3f729b;
+}
+.icon-phone:hover{
+  color: aliceblue;
+}

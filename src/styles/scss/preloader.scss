@@ -1,0 +1,52 @@
+
+#preloader {
+  
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: calc(50vh - 30px);
+  left: calc(50% - 30px);
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+#preloader:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  height: 100%;
+  width: 100%;
+  animation: rotation 1s linear infinite;
+  border: 2px solid rgb(7, 71, 166);
+  border-top: 1px solid transparent;
+  border-radius: 100%;
+}
+#preloader > .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 25px;
+  width: 10.6px;
+  margin-top: -12.5px;
+  margin-left: -5.3px;
+  animation: wink 1s ease-in-out infinite alternate;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+  @keyframes wink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
