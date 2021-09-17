@@ -1,6 +1,6 @@
 import { getAllTasks } from "../utils/getDataLocal";
-import getHash from "../utils/getHash";
-import swiperFunction from "../components/swiperSetTimeout";
+//import getHash from "../utils/getHash";
+//import swiperFunction from "../components/swiperSetTimeout";
 
 
 const openSearchBox = () => {
