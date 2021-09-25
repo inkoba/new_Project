@@ -1,3 +1,4 @@
+import "../styles/scss/main.scss";
 
 const Header = () => {
   const view = `
@@ -80,7 +81,7 @@ const Header = () => {
 
               <div class="header-area-logo">
                 <span header-logo>
-                  <img class="logo-img" src="./images/logo/bigLogo.svg">
+                  <img class="logo-img" src="../images/logo/bigLogo.svg">
                 </span>
               </div>
 

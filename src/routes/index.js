@@ -6,9 +6,9 @@ import getHash from "../utils/getHash";
 import getResolveRoutes from "../utils/getResolveRoutes";
 import ErrorNotFound from "../pages/ErrorNotFound";
 import Collection from "../pages/Collection";
-import swiperFunction from "../components/swiperSetTimeout";
 
-import regeneratorRuntime from "regenerator-runtime";
+import "../styles/scss/main.scss";
+
 import Basket from "../pages/Basket";
 import LogIn from "../pages/LogIn";
 import SignUp from "../pages/SignUp";

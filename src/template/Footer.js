@@ -1,3 +1,4 @@
+import "../styles/scss/main.scss";
 const Footer = () => {
   const view = `
   <footer>
