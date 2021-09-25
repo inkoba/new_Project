@@ -1,4 +1,5 @@
 import "../styles/scss/main.scss";
+import "../images/logo/bigLogo.svg"
 
 const Header = () => {
   const view = `
@@ -92,7 +93,7 @@ const Header = () => {
                 </button>
               </div>
 
-              <!--<div class="header-area-search">-->
+              
                 <div class="header-search">
                   <form class="header-search-form" method="GET">
                     <input type="text" value="Поиск" class="header-search-field">
@@ -101,7 +102,7 @@ const Header = () => {
                     </button>
                   </form>
                 </div>
-              <!--</div>-->
+              
 
               <div class="header-area-controls">
               

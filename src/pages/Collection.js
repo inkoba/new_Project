@@ -1,5 +1,11 @@
 import "../styles/scss/main.scss";
 import { swiperThreeProduct } from "../components/swiperSetTimeout";
+import "../images/mini_image/m1.jpg";
+import "../images/mini_image/m2.jpg";
+import "../images/mini_image/m3.jpg";
+import "../images/mini_image/m4.jpg";
+import "../images/mini_image/m6.jpg";
+import "../images/mini_image/m8.jpg";
 
 const Collection = () => {
     swiperThreeProduct();
@@ -14,7 +20,7 @@ const Collection = () => {
                 <ul class="collection-menu">
                     <li class="collection-menu-title">
                         <a class="collection-menu-foto">
-                         <img src="./images/mini_image/m1.jpg">
+                         <img src="../images/mini_image/m1.jpg">
                         </a>
 
                         <div class="collection-menu-submenu">КЛАССИЧЕСКАЯ КОЛЛЕКЦИЯ</div>
