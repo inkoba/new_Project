@@ -142,7 +142,7 @@ const Header = () => {
                 <ul class="collection-menu">
                     <li class="collection-menu-title">
                       <a class="collection-menu-foto">
-                      <img src="../images/mini_image/m1.jpg">
+                      <img src="./images/mini_image/m1.jpg">
                       </a>
 
                       <div class="collection-menu-submenu">КЛАССИЧЕСКАЯ КОЛЛЕКЦИЯ</div>

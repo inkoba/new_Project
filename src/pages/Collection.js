@@ -14,7 +14,7 @@ const Collection = () => {
                 <ul class="collection-menu">
                     <li class="collection-menu-title">
                         <a class="collection-menu-foto">
-                         <img src="../images/mini_image/m1.jpg">
+                         <img src="./images/mini_image/m1.jpg">
                         </a>
 
                         <div class="collection-menu-submenu">КЛАССИЧЕСКАЯ КОЛЛЕКЦИЯ</div>
@@ -34,7 +34,7 @@ const Collection = () => {
                     <ul class="collection-menu">
                     <li class="collection-menu-title">
                         <a class="collection-menu-foto">
-                        <img src="../images/mini_image/m2.jpg">
+                        <img src="./images/mini_image/m2.jpg">
                         </a>
 
                         <div class="collection-menu-submenu">МОДНАЯ КОЛЛЕКЦИЯ</div>
@@ -53,7 +53,7 @@ const Collection = () => {
                 <ul class="collection-menu">
                     <li class="collection-menu-title">
                     <a class="collection-menu-foto">
-                    <img src="../images/mini_image/m3.jpg">
+                    <img src="./images/mini_image/m3.jpg">
                     </a>
 
                     <div class="collection-menu-submenu">ACCENT</div>
@@ -73,7 +73,7 @@ const Collection = () => {
                 <ul class="collection-menu">
                     <li class="collection-menu-title">
                         <a class="collection-menu-foto">
-                        <img src="../images/mini_image/m8.jpg">
+                        <img src="./images/mini_image/m8.jpg">
                         </a>
 
                         <div class="collection-menu-submenu">КУПАЛЬНИКИ</div>
@@ -93,7 +93,7 @@ const Collection = () => {
                     <ul class="collection-menu">
                     <li class="collection-menu-title">
                         <a class="collection-menu-foto">
-                        <img src="../images/mini_image/m6.jpg">
+                        <img src="./images/mini_image/m6.jpg">
                         </a>
 
                         <div class="collection-menu-submenu">ТРИКОТАЖНАЯ КОЛЛЕКЦИЯ</div>
@@ -113,7 +113,7 @@ const Collection = () => {
                     <ul class="collection-menu">
                     <li class="collection-menu-title">
                         <a class="collection-menu-foto">
-                        <img src="../images/mini_image/m4.jpg">
+                        <img src="./images/mini_image/m4.jpg">
                         </a>
 
                         <div class="collection-menu-submenu">BODY ART INNOVATION</div>
