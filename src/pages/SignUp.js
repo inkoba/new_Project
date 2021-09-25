@@ -1,3 +1,5 @@
+import "../styles/scss/main.scss";
+
 const SignUp = () => {
   const view = `
   <div class="login-box">

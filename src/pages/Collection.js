@@ -1,5 +1,4 @@
 import "../styles/scss/main.scss";
-import regeneratorRuntime from "regenerator-runtime";
 import { swiperThreeProduct } from "../components/swiperSetTimeout";
 
 const Collection = () => {
