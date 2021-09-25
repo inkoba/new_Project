@@ -1,4 +1,4 @@
-import "../styles/scss/collection.scss";
+import "../styles/scss/main.scss";
 import regeneratorRuntime from "regenerator-runtime";
 import { swiperThreeProduct } from "../components/swiperSetTimeout";
 

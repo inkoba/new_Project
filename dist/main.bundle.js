@@ -115,7 +115,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./routes */ \"./src/routes/index.js\");\n/* harmony import */ var _actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./actions */ \"./src/actions/index.js\");\n/* harmony import */ var regenerator_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! regenerator-runtime */ \"./node_modules/regenerator-runtime/runtime.js\");\n/* harmony import */ var regenerator_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_font_css_fontello_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/font/css/fontello.css */ \"./src/styles/font/css/fontello.css\");\n\n\n\n\nwindow.addEventListener('load', function () {\n  (0,_routes__WEBPACK_IMPORTED_MODULE_0__.default)();\n  (0,_actions__WEBPACK_IMPORTED_MODULE_1__.getContent)();\n});\nwindow.addEventListener('hashchange', function () {\n  (0,_routes__WEBPACK_IMPORTED_MODULE_0__.default)();\n  (0,_actions__WEBPACK_IMPORTED_MODULE_1__.getContent)();\n});\n\n//# sourceURL=webpack://webpack_start/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./routes */ \"./src/routes/index.js\");\n/* harmony import */ var _actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./actions */ \"./src/actions/index.js\");\n/* harmony import */ var regenerator_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! regenerator-runtime */ \"./node_modules/regenerator-runtime/runtime.js\");\n/* harmony import */ var regenerator_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_font_css_fontello_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/font/css/fontello.css */ \"./src/styles/font/css/fontello.css\");\n/* harmony import */ var _styles_scss_main_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/scss/main.scss */ \"./src/styles/scss/main.scss\");\n\n\n\n\n\nwindow.addEventListener('load', function () {\n  (0,_routes__WEBPACK_IMPORTED_MODULE_0__.default)();\n  (0,_actions__WEBPACK_IMPORTED_MODULE_1__.getContent)();\n});\nwindow.addEventListener('hashchange', function () {\n  (0,_routes__WEBPACK_IMPORTED_MODULE_0__.default)();\n  (0,_actions__WEBPACK_IMPORTED_MODULE_1__.getContent)();\n});\n\n//# sourceURL=webpack://webpack_start/./src/index.js?");
 
 /***/ }),
 
@@ -1644,7 +1644,7 @@ eval("module.exports = \"data:application/font-woff;charset=utf-8;base64, d09GRg
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("328f5bb80ce56edbc4fd")
+/******/ 		__webpack_require__.h = () => ("39ca18d1aee30a8d2ae3")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
