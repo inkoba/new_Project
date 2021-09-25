@@ -139,7 +139,7 @@ const Header = () => {
                 
             
                   
-                <ul class="collection-menu">
+               <!--<ul class="collection-menu">
                     <li class="collection-menu-title">
                       <a class="collection-menu-foto">
                       <img src="./images/mini_image/m1.jpg">
@@ -255,7 +255,7 @@ const Header = () => {
                         </li>
                       </ul>
                     </li>
-                  </ul>
+                  </ul>-->
 
               </div>
           </div>
